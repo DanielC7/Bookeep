@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26EE05D51E96272900DDF312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE05D41E96272900DDF312 /* AppDelegate.swift */; };
+		26EE05D71E96272900DDF312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE05D61E96272900DDF312 /* ViewController.swift */; };
+		26EE05DA1E96272900DDF312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05D81E96272900DDF312 /* Main.storyboard */; };
+		26EE05DC1E96272900DDF312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05DB1E96272900DDF312 /* Assets.xcassets */; };
+		26EE05DF1E96272900DDF312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05DD1E96272900DDF312 /* LaunchScreen.storyboard */; };
+		26EE05E71E9633FD00DDF312 /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE05E61E9633FD00DDF312 /* BookDetails.swift */; };
+		26EE05E91E96342100DDF312 /* BookScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EE05E81E96342100DDF312 /* BookScreen.swift */; };
+		26EE05EB1E96E52200DDF312 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05EA1E96E52200DDF312 /* GoogleService-Info.plist */; };
+		26EE05ED1E97212A00DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05EC1E97212A00DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27.jpeg */; };
+		26EE05EF1E97213000DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26EE05EE1E97213000DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg */; };
+		6BE847ED2B3269573DBA9CFA /* Pods_Bookeep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E595ECD41EF75C7895EEE3 /* Pods_Bookeep.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26EE05D11E96272900DDF312 /* Bookeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26EE05D41E96272900DDF312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26EE05D61E96272900DDF312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26EE05D91E96272900DDF312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26EE05DB1E96272900DDF312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26EE05DE1E96272900DDF312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26EE05E01E96272900DDF312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EE05E61E9633FD00DDF312 /* BookDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		26EE05E81E96342100DDF312 /* BookScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookScreen.swift; sourceTree = "<group>"; };
+		26EE05EA1E96E52200DDF312 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26EE05EC1E97212A00DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2017-04-07 at 03.55.27.jpeg"; sourceTree = "<group>"; };
+		26EE05EE1E97213000DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg"; sourceTree = "<group>"; };
+		33E595ECD41EF75C7895EEE3 /* Pods_Bookeep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bookeep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DBEF57DC4943066DA1B451 /* Pods-Bookeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bookeep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bookeep/Pods-Bookeep.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9469D5A58D825DCB0B28FA /* Pods-Bookeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bookeep.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bookeep/Pods-Bookeep.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26EE05CE1E96272900DDF312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE847ED2B3269573DBA9CFA /* Pods_Bookeep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26EE05C81E96272900DDF312 = {
+			isa = PBXGroup;
+			children = (
+				26EE05D31E96272900DDF312 /* Bookeep */,
+				26EE05D21E96272900DDF312 /* Products */,
+				9D194CDD0485523933F37F61 /* Pods */,
+				C531B5D4037837BC8EAF875D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26EE05D21E96272900DDF312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26EE05D11E96272900DDF312 /* Bookeep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26EE05D31E96272900DDF312 /* Bookeep */ = {
+			isa = PBXGroup;
+			children = (
+				26EE05D41E96272900DDF312 /* AppDelegate.swift */,
+				26EE05D61E96272900DDF312 /* ViewController.swift */,
+				26EE05D81E96272900DDF312 /* Main.storyboard */,
+				26EE05E61E9633FD00DDF312 /* BookDetails.swift */,
+				26EE05E81E96342100DDF312 /* BookScreen.swift */,
+				26EE05DB1E96272900DDF312 /* Assets.xcassets */,
+				26EE05EE1E97213000DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg */,
+				26EE05EC1E97212A00DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27.jpeg */,
+				26EE05DD1E96272900DDF312 /* LaunchScreen.storyboard */,
+				26EE05E01E96272900DDF312 /* Info.plist */,
+				26EE05EA1E96E52200DDF312 /* GoogleService-Info.plist */,
+			);
+			path = Bookeep;
+			sourceTree = "<group>";
+		};
+		9D194CDD0485523933F37F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5DBEF57DC4943066DA1B451 /* Pods-Bookeep.debug.xcconfig */,
+				DD9469D5A58D825DCB0B28FA /* Pods-Bookeep.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C531B5D4037837BC8EAF875D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E595ECD41EF75C7895EEE3 /* Pods_Bookeep.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26EE05D01E96272900DDF312 /* Bookeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EE05E31E96272900DDF312 /* Build configuration list for PBXNativeTarget "Bookeep" */;
+			buildPhases = (
+				A595495DDA71D842298A7620 /* [CP] Check Pods Manifest.lock */,
+				26EE05CD1E96272900DDF312 /* Sources */,
+				26EE05CE1E96272900DDF312 /* Frameworks */,
+				26EE05CF1E96272900DDF312 /* Resources */,
+				5DE055BA60318A5CAE1C1B50 /* [CP] Embed Pods Frameworks */,
+				90E02C109D619FBF3AB01160 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookeep;
+			productName = Bookeep;
+			productReference = 26EE05D11E96272900DDF312 /* Bookeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26EE05C91E96272900DDF312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Cohen";
+				TargetAttributes = {
+					26EE05D01E96272900DDF312 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26EE05CC1E96272900DDF312 /* Build configuration list for PBXProject "Bookeep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26EE05C81E96272900DDF312;
+			productRefGroup = 26EE05D21E96272900DDF312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26EE05D01E96272900DDF312 /* Bookeep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26EE05CF1E96272900DDF312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EE05DF1E96272900DDF312 /* LaunchScreen.storyboard in Resources */,
+				26EE05EB1E96E52200DDF312 /* GoogleService-Info.plist in Resources */,
+				26EE05DC1E96272900DDF312 /* Assets.xcassets in Resources */,
+				26EE05EF1E97213000DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27 (1).jpeg in Resources */,
+				26EE05DA1E96272900DDF312 /* Main.storyboard in Resources */,
+				26EE05ED1E97212A00DDF312 /* WhatsApp Image 2017-04-07 at 03.55.27.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DE055BA60318A5CAE1C1B50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bookeep/Pods-Bookeep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E02C109D619FBF3AB01160 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bookeep/Pods-Bookeep-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A595495DDA71D842298A7620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26EE05CD1E96272900DDF312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EE05D71E96272900DDF312 /* ViewController.swift in Sources */,
+				26EE05D51E96272900DDF312 /* AppDelegate.swift in Sources */,
+				26EE05E91E96342100DDF312 /* BookScreen.swift in Sources */,
+				26EE05E71E9633FD00DDF312 /* BookDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26EE05D81E96272900DDF312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EE05D91E96272900DDF312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26EE05DD1E96272900DDF312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26EE05DE1E96272900DDF312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26EE05E11E96272900DDF312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26EE05E21E96272900DDF312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26EE05E41E96272900DDF312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DBEF57DC4943066DA1B451 /* Pods-Bookeep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bookeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.cohen.Bookeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26EE05E51E96272900DDF312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9469D5A58D825DCB0B28FA /* Pods-Bookeep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bookeep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.cohen.Bookeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26EE05CC1E96272900DDF312 /* Build configuration list for PBXProject "Bookeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EE05E11E96272900DDF312 /* Debug */,
+				26EE05E21E96272900DDF312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EE05E31E96272900DDF312 /* Build configuration list for PBXNativeTarget "Bookeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26EE05E41E96272900DDF312 /* Debug */,
+				26EE05E51E96272900DDF312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26EE05C91E96272900DDF312 /* Project object */;
+}
